@@ -1,0 +1,439 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a,u{text-decoration:none;}
+img{border:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+em,i{font-style:normal;}
+html,body{
+    height:100%;
+}
+/* body{
+    height:3000px;
+} */
+/* <!--        主体导航部分        --> */
+.mheader{
+    height:100%;
+    height:90px;
+    height: 90px;
+    box-shadow: 0 2px 16px 0 rgba(220,220,220,.5);
+}
+.mheader-M{
+    width: 1200px;
+    height: 90px;
+    margin: 0 auto;
+    position: relative;
+    font-size: 0;
+    /* border: 1px solid #ddd; */
+    cursor: pointer;
+}
+.mheader-M .img{
+    width: 114px;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 17px;
+    border: 0;
+}
+
+.province{
+    width: 122px;
+    height: 22px;
+    /* display: none; */
+    position: absolute;
+    left: 145px;
+    top: 35px;
+    line-height: 22px;
+    white-space: nowrap;
+    cursor: pointer;
+    z-index: 12;
+}
+
+
+.Tnav{
+    width: 670px;
+    height: 560px;
+    background: #fff;
+    position: absolute;
+    top:24px;
+    left:-95px;
+    display: none;
+}
+.find-nav{
+    width: 625px;
+    height: 70px;
+    border-bottom: 1px solid #EBEBEB;
+    margin: 0 auto;   
+    padding-top: 35px;
+}
+.find-nav li {
+    font-size: 16px;
+    margin-top:5px; 
+}
+.find-nav li a{
+    display: inline-block;
+    font-size: 16px;
+    margin-left:15px;
+    color:#111;
+}
+
+.find-nav1{
+    width: 625px;
+    height: 454px;
+    /* border-bottom: 1px solid #EBEBEB; */
+    margin: 0 auto;   
+    padding-top: 35px;
+}
+
+.find-nav1 li {
+    font-size: 16px;
+    margin-top:5px; 
+}
+.find-nav1 li a{
+    color:#111;
+    display: inline-block;
+    font-size: 16px;
+    margin-left:15px;
+}
+.miss{
+    visibility: hidden;
+}
+.find-nav1 li a.active{
+    color:#FF1268;
+}
+
+.location{
+    width: 12px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.allCity{
+    max-width: 90px;
+    font-size: 16px;
+    color: #2D2D2D;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    margin-right: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.arrow{
+    width: 9px;
+    display: inline-block;
+    vertical-align: middle;    
+}
+.nav{
+    width: 280px;
+    height: 25px;
+    position: absolute;
+    left: 279px;
+    top: 33px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.homePage{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    margin-right: 26px;
+    color:#FF1268;
+
+}
+.classification{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    margin-right: 26px;
+}
+.classification:hover{color:#FF1268;}
+.english{
+    display: inline-block;
+    font-size: 16px;
+    color: #000;
+    margin-right: 26px;
+}
+.english:hover{color:#FF1268;}
+.seach{
+    width: 401px;
+    height: 48px;
+    position: absolute;
+    left: 563px;
+    top: 20px;
+    border-radius: 27px;
+    background-color: #f2f2f2;
+}
+.Fsearch{
+    width: 17px;
+    position: absolute;
+    left: 22px;
+    top: 15px;
+}
+.Isearch{
+    width: 325px;
+    height: 48px;
+    position: absolute;
+    left: 54px;
+    top: 0;
+    z-index: 10;
+    font-size: 16px;
+    background-color: #f2f2f2;
+    border: 0;
+    outline: none
+}
+.log{
+    width: 129px;
+    height: 26px;
+    position: absolute;
+    left: 989px;
+    top: 32px;
+    line-height: 26px;
+}
+.find-log{
+    width: 138px;
+    height: 155px;
+    background: #fff;
+    position: absolute;
+    top:35px;
+    left:-5px;
+    display: none;
+    z-index: 30;
+}
+.find-log li a{
+    display: block;
+    width:138px;
+    height:51px;
+    border-bottom: 1px solid #EBEBEB;
+    font-size: 16px;
+    color:#111;
+    text-align: center;
+    line-height: 51px;
+}
+.find-log li:hover a{
+    background: #f7f2f4;
+    color:#FF1268;
+}
+.l-img{
+    width: 26px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.dl{
+    width:32px;
+    height:26px;
+    font-size:16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #434343;
+    margin-left:30px;   
+}
+.line{
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    border-right: 1px solid #434343;
+    vertical-align: middle;
+    margin: 0 3px;
+    color: #434343;
+}
+.zc{
+    width:32px;
+    height:26px;
+    font-size:16px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #434343;
+    
+}
+.APP{
+    position: absolute;
+    right: 15px;
+    top: 27px;
+}
+.download{
+    width: 47px;
+}
+.find-download{
+    width: 80px;
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: -29px;
+    z-index: 10;
+    background: #fff;
+    padding: 5px;
+    box-shadow: 1px -1px 1px #ccc;
+}
+.sm{
+    width: 100%;
+}
+
+/*      回到顶部        */
+.floor{
+    width:80px;
+    background: #fff;
+    border: 1px solid #EBEBEB;
+    position: fixed;
+    z-index: 999;
+    right:20px;
+    top:55%;
+}
+.floor li{
+    width:80px;
+    height:71px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.fl:hover p{
+    color:#ff1268;
+}
+.com0{
+    display: block;
+    width:32px;
+    height:29px;
+    margin: 0 auto;
+    margin-top:15px; 
+    overflow: hidden;
+    position: relative;
+}
+.com0 img{
+    width:100%;
+}
+.com1{
+    color: #333;
+    font-size:14px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.com1:hover{
+    color:#ff1268;
+}
+.not-find{
+    display: none;
+}
+
+
+
+/* 内容部分 */
+.concent{
+    width:100%;
+    /* height:1200px; */
+    background: #ddd;
+    margin-top:20px; 
+}
+
+.shopList{
+    width:1200px;
+    /* height:1200px; */
+    margin: 0 auto;
+    /* border:1px solid #000; */
+    
+}
+.shopList li{
+    width:250px;
+    height:500px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px #ccc;
+    float: left;
+    margin: 23px 23px; 
+}
+
+.shopList li a{
+    display:block;
+    width:250px;
+    height:337px;
+   
+}
+.shopList li a img{
+    width:100%;
+   /* height:100%; */
+}
+
+.pl{
+    width:200px;
+    margin: 0 auto;
+}
+
+.tit{
+    height:30px;
+    color:#666;
+    font-size: 14px;
+    margin-top:3px; 
+}
+.adress{
+    height:30px;
+    color:#999;
+    font-size: 13px;
+    margin-top:8px; 
+}
+
+.date{
+    height:30px;
+    color:#333;
+    font-size: 12px;
+    margin-top:5px; 
+}
+
+.price{
+    margin-top:5px;
+    font-size: 14px;
+    color:#eee;
+}
+.price em{
+    font-size: 16px;
+    color:#ff1268;
+    margin-right:15px; 
+}
+
+.concent ul:after{
+    content: "";
+    display: block;
+    clear: both;
+    overflow: hidden;
+}
+.btn{
+   
+    margin-left:60px;
+    margin-top: 10px;
+
+}
+
+/* 购物车 */
+.sp{
+    height: 100px;
+    width:80px;
+    background: #fff;
+    box-shadow: 0 5px 10px #000;
+    text-align: right;
+    position: fixed;
+    right:22px;
+    /* top:260px; */
+    z-index:999;
+
+}
+.car{
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    padding: 5px;
+    position: relative;
+}
+.car img{
+    height: 50px;
+    margin-right:20px;
+    
+}
+.car span{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color:#ff1268;
+    background:rgba(255,255,255,.3);
+}
+.remove button{
+    margin-right: 20px;
+    margin-top: -30px;
+    display: inline-block;
+    width:50px;
+}

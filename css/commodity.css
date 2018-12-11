@@ -1,0 +1,1132 @@
+*{margin:0;padding:0;}
+li{list-style:none;}
+a,u{text-decoration:none;}
+img{border:0;}
+h1,h2,h3,h4,h5,h6,strong,b{font-weight:normal;}
+em,i{font-style:normal;}
+html,body{
+    height:100%;
+}
+
+/* 头部 */
+.header{
+    width:100%;
+    height:50px;
+    background-color: #ed0a75;
+}
+.top{
+    width:1240px;
+    height:50px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+.log{
+    float: left;
+    margin: 8px 0 0 20px;
+    width: 86px;
+    height: 32px;
+    line-height: 150px;
+    overflow: hidden;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/m-logo-172-64.png) no-repeat 0 0;
+    background-size: 86px 32px;
+}
+.city{
+    width:70px;
+    height:50px;
+    position: relative;
+    z-index: 110;
+    margin: 0 0 0 12px;
+    float: left;
+}
+.TT{
+    width:36px;
+    float: left;
+    color: #fff;
+    height: 50px;
+    line-height: 50px;
+   
+}
+.cName{
+    float: left;
+    color:#fff;
+    font-size:14px;
+}
+.arrow{
+    float: left;
+    width: 8px;
+    height: 4px;
+    margin-top:20px;
+    /* margin: 20px 0 0 6px; */
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/ultimate-sprites.png) no-repeat 0 0;
+
+}
+
+/* 隐藏界面 */
+.find{
+    position: absolute;
+    left: 0;
+    top: 50px;
+    width: 482px;
+    background-color: #fff;
+    border: 1px solid #eaeceb;
+    padding: 0 18px;
+    display: none;
+    z-index: 999;
+}
+.find dl{
+    width:482px;
+    height:143px;
+    border-top: 1px dotted #ccc;
+    padding-top: 12px;
+    overflow: hidden;
+}
+.find dl dt{
+    width: 58px;
+    height: 30px;
+    line-height: 18px;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/ultimate-sprites.png) no-repeat -128px 0;
+    color: #666;
+    padding-left: 4px;
+    float: left;
+    margin-top: 6px;
+    font-size:14px;
+}
+
+.find dl dd {
+    width: 420px;
+    float: right;
+}
+
+.find ul{
+    width:420px;
+    height:120px;
+        /* padding-bottom: 10px; */
+    overflow: hidden;
+}
+.find ul li{
+    float: left;
+    width: 62px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 0 0 8px;
+}
+.find ul li a{
+    color: #7e7e7e;
+    font-size:14px;
+}
+.find ul li cite{
+    font-size: 10px;
+    color: #666;
+    padding: 0 0 0 5px;
+}
+.find ul li a:hover{
+    color:#ed0a75;
+}
+
+/* 输入框 */
+.search{
+    width:310px;
+    height:50px;
+    float: left;
+    /* c */
+    margin-left: 450px;
+   
+}
+.input{
+    width:254px;
+    height:30px;
+    outline: none;
+    float: left;
+    border: 0;
+    margin-top: 10px;
+    
+}
+.s{
+    display: inline-block;
+    width:36px;
+    height:30px;
+    margin-top: 10px;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/ultimate-sprites.png) no-repeat -53px 8px #fff;
+}
+.usr{
+    width: 30px;
+    height: 30px;
+    
+    
+}
+.usr img{
+    float: left;
+    margin-top: 10px;
+    margin-right: 8px;
+    margin-left: 80px;
+}
+.right span{
+    float: left;
+}
+.right span a{
+    float: left;
+    margin-top: 15px;
+    font-size: 14px;
+    color:#fff;
+    margin-right: 2px;
+}
+
+/* 标题栏 */
+.top-M{
+    width:1238px;
+    height:51px;
+    background: #f6f6f6;
+    margin: 0 auto;
+    margin-top: 30px;
+    box-shadow: 0 0  1px;
+    position: relative;
+}
+.top-M h3{
+    widows: 347px;
+    height:24px;
+    line-height: 44px;
+    font-size: 14px;
+    font-weight: bold;
+    color:#666;
+}
+
+/* 放大镜部分 */
+.main {
+    width:966px;
+    height:567px;
+    /* position: relative; */
+    border: 1px solid #ddd;
+    margin-left: 12px;
+}
+.small .wrap{
+    width:100%;
+    height:100%;
+    position: absolute;
+    z-index: 999;
+    
+}
+
+.small{
+    width:276px;
+    height:373px;
+    position: relative;
+    margin-top:30px;
+    margin-left:30px;
+    border:4px solid #ddd;
+    box-shadow: 0 0 5px rgba(0,0,0,.5);
+    /* overflow: hidden; */
+}
+.small img{
+    border: 0;
+    width:100%;
+}
+
+.box{
+    width:200px;
+    height:200px;
+    background:#ddd;
+    opacity:0.4;
+    position:absolute;
+    top:0;
+    left:0;
+    display:none;
+
+}
+
+.big{
+	width:276px;
+    height:373px;
+    position: absolute;
+    top:160px;
+    left:400px;
+	display: none;
+    overflow: hidden;
+    z-index: 888;
+}
+
+.big img{
+	position: absolute;
+
+}
+
+
+.bottom{
+     margin-left:30px;
+     margin-top:20px;
+}
+.bottom li{
+       width:50px;
+       height:50px;
+       box-shadow: 0 0 5px rgba(0,0,0,.5);
+       float: left;
+       margin-right: 25px;
+}
+.bottom li img{
+    width:100%;
+}
+
+.main .mainL{
+    width:640px;
+    height: 567px;
+    /* border: 1px solid #000; */
+    float: right;
+    margin-top:-480px; 
+    cursor: pointer;
+}
+
+.tt{
+    width:620px;
+    height:46px;
+    position: relative;
+    top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 46px;
+    color: #000;
+    padding-bottom: 10px;
+    
+}
+.txt{
+    display:inline-block;
+    font-size:18px;
+    width:540px;
+    height:24px; 
+    text-align: 24px;
+}
+.m-flowers{
+    width:68px;
+    height:68px;
+    display: inline-block;
+    position: relative;
+    z-index: 0;
+    left: -38px;
+    top: 23px;
+    margin-top: -36px;
+    vertical-align: top;
+    zoom: 1;
+    width: 68px;
+    height: 68px;
+    text-align: center;
+    color: #666;
+    font-size: 12px;
+    font-weight: normal;
+}
+.m-flowers .txt1{
+    display: block;
+    height: 20px;
+    line-height: 14px;
+    font-size:10px;
+    display: none;
+}
+.ico{
+    width: 30px;
+    height: 30px;
+    margin: 8px auto 0 auto;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/m-flowers.png) no-repeat 9999px 9999px;
+    display: block;
+    background-position: 0 0;
+    /* border: 1px solid #ddd;
+    border-radius: 100%; */
+
+}
+.num{
+    display: block;
+    height: 20px;
+    line-height: 14px;
+}
+
+.t-m p{
+    color: #999;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 16px 0;
+    /* margin-top: -15px; */
+}
+.t-m p span{
+font-size: 20px;
+font-family: "宋体";
+font-weight:bolder;
+}
+.time{
+    width:620px;
+    height:67px;
+    /* border: 1px solid #ddd; */
+}
+.time span{
+    display: inline-block;
+    width:60px;
+    height:44px;
+    font-size: 12px;
+    line-height: 67px;
+    color:#999;
+}
+
+.time1{
+    width:560px;
+    height:47px;
+    float: right;
+    /* line-height: 67px; */
+}
+.time1 li{
+    width:139px;
+    height:34px;
+    font-size: 12px;
+    border:2px solid #eee;
+    border-color:#ed0a75;
+    margin-top:17px; 
+    float: left;
+}
+.time1 li b{
+    line-height: 34px;
+}
+.time1 li b:hover{
+    color:#f00;
+}
+.time2{
+    width:560px;
+    height:88px;
+    float: right;
+    
+}
+.time2 li{
+    width:124px;
+    height:36px;
+    font-size: 12px;
+    border:1px dashed #ddd;
+    background: #eee;
+    margin-top:17px; 
+    float: left;
+    margin-right:6px;
+}
+.time2 li b{
+    line-height: 34px;
+   margin-left: 50px;
+   color: #999;
+}
+.time2 li b:hover{
+    color:#ed0a75;
+}
+.buy a{
+    display: block;
+    width:186px;
+    height:42px;
+    border:1px solid #ed0a75;
+    margin-top:70px; 
+    margin-left:60px; 
+    text-align: center;
+    line-height: 42px;
+    color:#fff;
+    background:#ed0a75; 
+}
+.buy a:hover{
+    background: #9e2a62
+}
+
+.word{
+    width:500px;
+    height:38px;
+    line-height: 38px;
+    font-size:12px;
+    margin-left:60px;
+    margin-top:10px;
+    color: #ed0a75; 
+}
+.sao{
+    width:142px;
+    height:38px;
+}
+.sao h3{
+    position: relative;
+    font-size: 12px;
+    font-weight: normal;
+    padding: 4px 0 0 14px;
+    width: 128px;
+    height: 34px;
+    line-height: 16px;
+    color: #fff;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/ultimate-sprites.png) no-repeat 0 -192px;
+    cursor: pointer;
+    margin-left:480px; 
+    
+}
+.sao p{
+    position: absolute;
+    right:303px;
+    top:px;
+    bottom: 70px;
+    width: 120px;
+    height: 120px;
+    padding: 10px;
+    margin-left: 15px;
+    border: 1px solid #eaeceb;
+    background-color: #fff;
+    border-bottom: none;
+     display: none;
+} 
+.sao p img{
+    margin-left: 5px;
+}
+
+.CL{
+    width:268px;
+    height:565px;
+    border:1px solid #eee;
+    position: relative;
+    right:-968px;
+    top:-430px;
+    border-left:0;
+}
+.m-r{
+    width:230px;
+    height:79px;
+    border-top: 1px dotted #ccc;
+    margin: 0 20px;
+    padding: 15px 0;
+    font-size: 12px;
+    line-height: 2;
+    position: relative;
+    /* z-index: 3; */
+}
+.m-r h2{
+    width:230px;
+   position: absolute;
+    font-size: 12px;
+    color: #262626; 
+}
+.mtime{
+    float: left;
+    background-color: transparent;
+    height: auto;
+    font-size: 12px;
+    line-height: 2;
+    
+}
+.mtime span{
+    float: left;
+    margin-right: 5px;
+    position: absolute;
+    top:40px;
+}
+
+.mnav{
+    width:230px;
+    height:48px;
+    position: absolute;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.mnav li{
+    float: left;
+    width:74px;
+    height:26px;
+    color: #ed0a75;
+}
+
+.mnav li:hover{
+    color: #ddd;
+}
+.Rcity span{
+    display: inline-block;
+    width:62px;
+    height:25px;
+    background: #ed0a75;
+    margin-top:50px;
+    color:#fff;
+    text-align: center;
+}
+
+.tips{
+    margin-top: 5px;
+    color: #ddd;
+}
+
+/* 悬浮框 */
+.main-M{
+    width:964px;
+    height:1353px;
+    border: 1px solid #eee;
+    margin-left: 13px;
+    margin-top: 20px;
+}
+.M-nav{
+    width:966px;
+    height:46px;
+    /* border: 1px solid #ddd; */
+    background: #ccc;
+}
+.M-nav li{
+    width:125px;
+    height:44px;
+    float: left;
+    border-top: 2px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
+    line-height: 44px;
+    color: #333;
+}
+.M-nav li:nth-child(3){
+    border-right: 0;
+}
+.M-nav li.hover{
+    background: #fff;
+    border-top-color:#ed0a75; 
+}
+.M-nav.active{
+    border-top:3px solid #ed0a75;
+    position: fixed;
+    top:0; 
+}
+.M-nav p{
+    width:120px;
+    height:36px;
+    background: #ed0a75;
+    float: left;
+    text-align: center;
+    color: #fff;
+    line-height: 36px;
+    margin-top:5px; 
+    left:680px;
+    position: absolute;
+    display: none;
+}
+
+.common{
+    width:964px;
+    height:1304px;
+    /* border: 1px solid #000; */
+}
+.com-m{
+    width:886px;
+    height:585px;
+    /* border: 1px solid #ddd; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+ .BS{
+    width:886px;
+    height:18px;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/m-tab-dot.png) repeat-x 0 center;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+    color: #8c8c8c;
+    border-left: 2px solid #ed0a75;
+    margin-bottom: 16px;
+    
+}
+ .BS span{
+    padding: 0 20px 0 10px;
+    background-color: #fff;
+}
+
+.table{
+    width: 700px;
+    height:521px;
+    font-family: "宋体";
+    padding: 10px 86px 0 100px;
+    /* border: 1px solid #000; */
+}
+.table1{
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 2px solid #888;
+}
+.table1 td{
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.table1 .bg{
+    font-weight: bold;
+    vertical-align: top;
+    background-color: #f6f6f6;
+    border-right: 1px solid #e5e5e5;
+}
+
+.com-t{
+    width:886px;
+    height:500px;
+    /* border: 1px solid #262626; */
+    margin: 0 auto;
+}
+
+.jianjie{
+    width:886px;
+    height:436px;
+    /* border: 1px solid #262626; */
+    margin: 0 auto; 
+}
+.jianjie{
+    width:700px;
+    height: 36px;
+    line-height: 36px;
+    font-size: 16px;
+    color: #333;
+    padding: 0 6px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    background-color: #eee;
+}
+
+.com-f{
+    width:886px;
+    height:141px;
+    /* border: 1px solid #262626;  */
+    margin: 0 auto;
+    margin-top:20px; 
+}
+
+.tishi{
+    width:700px;
+    height:67px;
+    font-family: "宋体";
+    padding: 10px 86px 0 100px;
+    /* border: 1px solid #000; */
+}
+.last{
+    width:700px;
+    height:77px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    border-top: 2px solid #888;
+}
+.last td{
+    line-height: 24px;
+    font-size: 12px;
+    color: #666;
+    padding: 8px 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.last .bg{
+    font-weight: bold;
+    vertical-align: top;
+    background-color: #f6f6f6;
+    border-right: 1px solid #e5e5e5;
+}
+
+.TB{
+    width:886px;
+    height:331px;
+    /* border: 1px solid #ddd; */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.tit{
+    display: block;
+    padding: 5px 0 5px 12px;
+    font-style: 14px;
+    color: #ed0a75
+}
+
+.TB p{
+    color:#999;
+    font-size: 14px;
+    padding: 5px 0 5px 12px;
+}
+
+.TB-m{
+    width:886px;
+    height:172px;
+    /* border: 1px solid #ddd; */
+    margin: 0 auto;
+}
+
+.TB-m p{
+    color:#999;
+    font-size: 14px;
+    padding: 5px 0 0 12px;
+}
+
+.appD{
+    width:871px;
+    height:60px;
+    padding: 10px 0;
+    margin-top: 6px;
+    /* border: 1px solid #ddd; */
+
+}
+
+.appD a{
+    float: left;
+    display: block;
+    width: 152px;
+    height: 40px;
+    margin-right: 10px;
+    text-indent: -999em;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/bg_app.png) no-repeat 9999px 9999px;
+}
+.appD .phone{
+    background-position: 0 -300px;
+}
+
+.appD .ipd{
+    background-position: 0 -380px;
+}
+
+.appD .and{
+    background-position: 0 -460px;
+}
+.appD a:hover{
+        opacity: 0.5;
+}
+
+.dinggou{
+    width:886px;
+    height:116px;
+    margin: 0 auto;
+}
+.dinggou img{
+    margin-left: 15px;
+}
+
+.PhoneD{
+    width:886px;
+    height:85px;
+    margin: 0 auto;
+}
+.PhoneD p{
+    font-size:14px;
+    color:#999;
+    margin-left: 15px;
+}
+
+.hotline{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #ed0a75;
+}
+
+.shangmen{
+    width:886px;
+    height:116px;
+    margin: 0 auto;
+}
+.shangmen p {
+    font-size: 14px;
+    color:#999;
+    padding: 5px 0 0 12px;
+}
+
+.shangmen p a:hover{
+    color:#ed0a75;
+
+}
+
+.online{
+    width:886px;
+    height:339px;
+    /* border: 1px solid #ddd;  */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.online p{
+    color: #999;
+    font-size: 14px;
+    margin-left: 15px;
+}
+.online p a:hover{
+    color:#ed0a75;
+
+}
+
+.lis{
+    width:886px;
+    /* height:339px; */
+}
+
+.lis li{
+    float: left;
+    margin: 5px 0 20px 5px;
+}
+.lis li img{
+    width: 107px;
+    height: 25px;
+    overflow: hidden;
+    
+}
+
+.online h4{
+    clear: both;
+}
+
+.on-m{
+    width:886px;
+    height:83px;
+    /* border: 1px solid #ddd;  */
+    margin: 0 auto;
+}
+
+.on-m p{
+    color: #999;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.end{
+    width:886px;
+    height:83px;
+    /* border: 1px solid #ddd;  */
+    margin: 0 auto;
+}
+
+.end p{
+    color: #999;
+    font-size: 14px;
+    margin-left: 15px;
+}
+
+.end p a:hover{
+    color: #ed0a75
+}
+
+
+.r-lan{
+    width:270px;
+    height:1397px;
+    border: 1px solid #eee;
+    border-left: none;
+    position: relative;
+    right:-965px;
+    top:-1380px;
+}
+
+.subitem{
+    width:270px;
+    height:79px;
+}
+.subitem ul{
+    width:270px;
+    height:79px;
+}
+.subitem ul li{
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px dashed #cfcfcf;
+    height: 78px;
+}
+
+.subitem ul li a{
+    display: block;
+    padding: 15px 0 10px 80px;
+    height: 53px;
+    color: #333;
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/i-01.png) no-repeat scroll 15px 10px;
+
+}
+.s-t1{
+    font-family: "宋体";
+    font-size: 16px;
+    color: #555;
+    line-height: 22px;
+    padding-bottom: 2px;
+}
+.s-t2{
+    font-size: 12px;
+    color: #999;
+    line-height: 16px;
+}
+.subitem ul li .s-ewm{
+    position: absolute;
+    left: -124px;
+    top: 0;
+    width: 123px;
+    height: 168px;
+    text-align: center;
+    color: #323232;
+    font-family: "宋体";
+    line-height: 18px;
+    /* display: none; */
+    background: url(http://dui.dmcdn.cn/dm_2015/goods/images/i-02.png) no-repeat scroll 0 0;
+}
+.hd{
+    height: 44px;
+    background-color: #f6f6f6;
+    border-top: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    overflow: hidden;
+}
+.tt1{
+    width:230px;
+    height:24px;
+    margin:12px 20px 0 20px;
+    padding: 0 10px;
+    border-left: 2px solid #ed0a75;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.hf{
+    width:270px;
+    height:627px;
+}
+.hf-nav{
+    width:230px;
+    /* height:587px; */
+    /* border: 1px solid #ddd; */
+    margin: 0 auto;
+}
+.hf-nav .item{
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 0 8px 16px;
+    color: #333;
+    /* background: url(http://dui.dmcdn.cn/dm_2015/goods/images/m-sdlst-ico.png) no-repeat 3px 7px; */
+}
+.hot{
+    margin-bottom: 12px;
+    padding-bottom: 8px;
+    border-bottom: 1px dotted #ccc;
+    /* display: none; */
+    display: block;
+}
+.hot a{
+    width:230px;
+    height:310px;
+    color:#999;
+}
+.hot a img{
+    width: 100%;
+}
+.r-tt{
+    height:36px; 
+    line-height: 18px;
+    font-size: 12px;
+    /* background: url(//dui.dmcdn.cn/dm_2015/goods/images/m-sdlst-ico.png) no-repeat 3px 7px; */
+    color:#999;
+}
+.hf-nav .item a{
+    color: #999;
+}
+.hf-nav .item a:hover{
+    color:#ed0a75;
+}
+
+
+/*           结尾部分        */
+.Fbottom{
+    width:100%;
+    height:154px;
+    margin-top:50px; 
+}
+.c-bottom{
+    width: 1000px;
+    height:154px;
+    /* border: 1px solid #000; */
+    margin: 0 auto;
+}
+.t-b{
+    width: 1000px;
+    height:43px;
+    text-align: center;
+    color: #d9d9d9;
+    line-height: 42px;
+    border-bottom: 1px solid #e5e5e5;
+    margin-bottom: 15px;
+    color:#111;
+}
+.t-b a{
+    
+    color: #666;
+    font-size: 10px;
+    margin: 0 10px;
+}
+.t-b a:hover{
+    color:#FF1268;
+}
+.b-b{
+    width: 1000px;
+    height:76px;
+    color: #666;
+    
+    line-height: 20px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+/* .b-b p{
+    width: 1000px;
+    height:21px;
+} */
+.b-b a{
+    /* display: block;
+    width: 116px;
+    height:14px;
+    padding: 0 10px; */
+    color: #111;
+    font-size: 10px;
+}
+.b-b span{
+    display: inline-block;
+    width: 25px;
+
+}
+.b-b a:hover{
+    color:#FF1268;
+}
+
+/*      回到顶部        */
+.floor{
+    width:80px;
+    /* height:250px; */
+    background: #fff;
+    border: 1px solid #EBEBEB;
+    position: fixed;
+    z-index: 999;
+    right:20px;
+    top:55%;
+}
+.floor li{
+    width:80px;
+    height:71px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.fl:hover p{
+    color:#ff1268;
+}
+.com0{
+    display: block;
+    width:32px;
+    height:29px;
+    margin: 0 auto;
+    margin-top:15px; 
+    overflow: hidden;
+    position: relative;
+}
+.com0 img{
+    width:100%;
+}
+.com1{
+    color: #333;
+    font-size:14px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.com1:hover{
+    color:#ff1268;
+}
+.not-find{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

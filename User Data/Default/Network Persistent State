@@ -1,0 +1,1 @@
+{"net":{"http_server_properties":{"servers":[{"https://static.dmcdn.cn":{"supports_spdy":true}},{"https://pimg.dmcdn.cn":{"supports_spdy":true}},{"https://pimg.damai.cn":{"supports_spdy":true}},{"https://img.alicdn.com":{"supports_spdy":true}}],"version":5}}}
