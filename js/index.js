@@ -38,7 +38,7 @@ Broadcast.prototype = {
         timer=setInterval(function(){
             this.changeImgR();
             this.changeSnav();
-        }.bind(this),5000)
+        }.bind(this),4000)
 
     },
     changeImgL(){
